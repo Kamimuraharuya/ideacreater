@@ -3,7 +3,7 @@ class CreateNotes < ActiveRecord::Migration
     create_table :notes do |t|
       t.string :word
 
-      t.timestamps null: false
+      t.timestamps 
     end
   end
 end
