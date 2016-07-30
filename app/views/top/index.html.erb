@@ -1,2 +1,7 @@
-<hi>こんにちわ世界</hi>
-<%= @word %>
+<ul>
+
+<% @words.each do |word| %>
+<li><%= word.word %></li>
+<% end%>
+
+</ul>
