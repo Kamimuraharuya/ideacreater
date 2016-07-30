@@ -1,7 +1,7 @@
 class TopController < ApplicationController
 
 def index
-	@words=Note.all
+	@words = Note.all
 end
 
 end
