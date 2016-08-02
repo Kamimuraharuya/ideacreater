@@ -1,7 +1,24 @@
+<%= form_for(@word, :url=>{:controller=>"top", :action=>"create"}) do |f| %>
+<dev class = "field"> 
+<%= f.text_field :word %>
+	</dev>
+	<div class = "field">
+<%= f.submit  %>
+</div>
+
+<%end%>
+
+
+
+
+
 <ul>
 
-<% @words.each do |word| %>
-<li><%= word.word %></li>
-<% end%>
 
+
+<li><%= @word1.word %></li>
+
+<li><%= @word2.word %></li>
+
+<li><%= @word3.word %></li>
 </ul>
