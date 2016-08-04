@@ -7,8 +7,16 @@
   <%= csrf_meta_tags %>
 </head>
 <body>
+<header>
+	<strong><h1>Idaecreater</h1></strong>
+	<h2>アイデアは組み合わせから生まれる</h2>
+	<nav><p><%= link_to "アイデアを出す",slot_path%></p>
+			<li><%= link_to "Home", root_path%></li>
+			<li><%= link_to "単語一覧", 
+			index_path%></li>
+		</nav>
+</header>
 
 <%= yield %>
-
 </body>
 </html>

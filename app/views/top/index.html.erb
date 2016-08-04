@@ -1,24 +1,21 @@
+<div>
+<strong><h1>
+	単語を追加
+</h1></strong>
 <%= form_for(@word, :url=>{:controller=>"top", :action=>"create"}) do |f| %>
-<dev class = "field"> 
+<div class = "field"> 
 <%= f.text_field :word %>
-	</dev>
+	</div>
 	<div class = "field">
 <%= f.submit  %>
 </div>
-
 <%end%>
-
-
-
-
-
-<ul>
-
-
-
-<li><%= @word1.word %></li>
-
-<li><%= @word2.word %></li>
-
-<li><%= @word3.word %></li>
-</ul>
+</div>
+<br>
+<section>
+	<h1>
+		単語一覧
+	</h1>
+	<ul><% @words.each do |tango| %>     <li><%= tango.word %>
+	</li><% end%></ul>
+</section>

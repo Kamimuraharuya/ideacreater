@@ -3,22 +3,34 @@ class TopController < ApplicationController
 
 protect_from_forgery except: :create
 
-	def index
-		 @last = Note.last.id
+	def destroy
+    @word = Note.find(params[:id])
+    @word.destroy
+    redirect_to index_path
+	end
 
+	def slot
+		 @last = Note.last.id
+        @words = Note.all
 		@word1 = Note.find(rand(@last) + 1)
 		@word2 = Note.find(rand(@last) + 1)
 		@word3 = Note.find(rand(@last) + 1)
 		@word = Note.new
 	end
 
-		
-
+	def index
+	@words = Note.all
+	@word = Note.new
+    end 
+   
+   def show
+   
+   end
 
 
 	def create
 		@word = Note.create(create_params)
-		redirect_to "/"
+		redirect_to "/index"
 	end
 
 private
