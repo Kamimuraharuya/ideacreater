@@ -1,14 +1,5 @@
 class TopController < ApplicationController
 
-
-
-
-	def destroy
-    @word = Note.find(params[:id])
-    @word.destroy
-    redirect_to index_path
-	end
-
 	def slot
 		 @last = Note.last.id
         @words = Note.all
@@ -23,9 +14,8 @@ class TopController < ApplicationController
 	@word = Note.new
     end 
    
-   def show
-   
-   end
+	def show
+	end
 
 
 	def create
