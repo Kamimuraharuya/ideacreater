@@ -13,9 +13,7 @@ class TopController < ApplicationController
 	@words = Note.all
 	@word = Note.new
     end 
-   
-	def show
-	end
+  
 
 
 	def create
