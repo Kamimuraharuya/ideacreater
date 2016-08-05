@@ -1,0 +1,210 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"id",
+				"id"
+			],
+			[
+				"word",
+				"word"
+			],
+			[
+				"last",
+				"last"
+			],
+			[
+				"lat",
+				"last_id"
+			],
+			[
+				"creat",
+				"create_params"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/app/controllers/dotto",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/app/controllers/top_controller.rb",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/Gemfile",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/app/models/note.rb",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/app/views/user/new.html.erb",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/config/routes.rb",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/app/controllers/user_controller.rb",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/db/migrate/20160730233712_user.rb",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/config/environments/development.rb",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/config/environment.rb",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/app/models/user.rb",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/app/views/top/index.html.erb",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/app/controllers/word_controller.rb",
+		"/Users/kamimuraharuya/Documents/projects/ideacreater/db/migrate/20160730050035_create_notes.rb"
+	],
+	"find":
+	{
+		"height": 25.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			"/Users/kamimuraharuya/Documents/projects/ideacreater/app/views/user"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"word_last",
+			"mysql"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			""
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 112.0
+	},
+	"pinned_build_system": "",
+	"project": "dotto.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"no",
+				"app/models/note.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 221.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
