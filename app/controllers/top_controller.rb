@@ -1,7 +1,7 @@
 class TopController < ApplicationController
 
 
-protect_from_forgery except: :create
+
 
 	def destroy
     @word = Note.find(params[:id])
